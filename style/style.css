@@ -91,7 +91,7 @@ ul#mainMenu {
   font-weight: bold;
   line-height: 40px;
   text-align: center;
-  /* border: 1px solid #000; */
+  border: 1px solid #fff;
   display: inline-block;
 
   background-color: #383735;
@@ -115,6 +115,8 @@ ul#mainMenu {
 
   position: relative;
   top: 5px;
+  right: 1px;
+  border: none;
 }
 
 #gnb #bookMark a > span {
