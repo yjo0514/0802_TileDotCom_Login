@@ -1,0 +1,310 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+/* 프레임 시작 */
+/* 
+div#wrap{border: 1px solid #000;}
+header#header{border: 1px solid #000;}
+nav#gnb{border: 1px solid #000;}
+main#main{border: 1px solid #000;}
+footer#footer{border: 1px solid #000;}
+
+div#headerLgo{
+    border: 1px solid #000;
+}
+div#search{
+    border: 1px solid #000;
+}
+div#customerMenu{
+    border: 1px solid #000;
+} */
+
+/* 프레임 끝 */
+
+div#wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* div#wrap  */
+
+header#header {
+  padding: 20px 0;
+  justify-content: space-around;
+}
+
+div#search p {
+  color: #4499c8;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div#searchBar input {
+  width: 230px;
+  font-size: 18px;
+  padding: 5px;
+  border: 3px solid #3c8bb7;
+}
+
+div#searchBar span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 9px;
+  border: 1px solid #3c8bb7;
+  background-color: #3c8bb7;
+}
+
+ul#searchLi {
+  justify-content: space-around;
+}
+
+#search a {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+div#customerMenu {
+  font-size: 10px;
+  line-height: 70px;
+}
+
+div#customerMenu li {
+  padding-right: 7px;
+}
+
+/* div#header */
+
+nav#gnb {
+  padding: 20px 0;
+}
+
+ul#mainMenu {
+  justify-content: space-around;
+}
+
+#gnb a {
+  width: 105px;
+  height: 40px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  /* border: 1px solid #000; */
+  display: inline-block;
+
+  background-color: #383735;
+}
+
+#point a {
+  width: 150px;
+  color: #fff;
+  background-color: #3793c4;
+}
+
+#gnb .mainLi a:hover {
+  border-bottom: 5px solid #4499c8;
+}
+
+#gnb #bookMark a {
+  height: 30px;
+
+  line-height: 27px;
+  background-color: #ef8f1c;
+
+  position: relative;
+  top: 5px;
+}
+
+#gnb #bookMark a > span {
+  color: #fff;
+  font-size: 12px;
+}
+
+/* nav#gnb */
+
+nav#lnb {
+  margin: 10px 50px;
+  /* border: 1px solid #000; */
+}
+
+#lnb #subMenu {
+  font-weight: bold;
+  padding: 10px 40px;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  line-height: 20px;
+}
+
+#subMenu li:first-child {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#subMenu .SubLi a {
+  font-size: 12px;
+}
+
+/* nav#lnb */
+
+div#contents {
+  flex: 1;
+  height: 450px;
+  /* 임시 */
+}
+
+div#contentsFrame {
+  width: 480px;
+  /* border: 1px solid #000; */
+  margin: 40px;
+
+  position: relative;
+  left: 150px;
+}
+
+div#loginText {
+  margin-bottom: 20px;
+}
+
+div#loginText p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+div#loginText span:first-child {
+  color: #12b5b0;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+div#loginText span {
+  color: #6ba224;
+}
+
+div#loginFrame {
+  padding: 20px;
+  border: 1px solid #b6b6b6;
+  border-radius: 10px;
+}
+
+#loginFrame p:first-child {
+  color: #8752a4;
+  font-size: 12px;
+  font-weight: bold;
+
+  padding: 15px 10px;
+}
+
+#login {
+  /* border: 1px solid #000; */
+  font-size: 15px;
+  padding: 10px;
+  line-height: 25px;
+}
+
+#login li {
+  font-size: 13px;
+}
+
+#login input[type="text"] {
+  margin-left: 12px;
+}
+
+#loginFrame span {
+  font-size: 12px;
+  position: relative;
+  top: 30px;
+}
+
+#loginFrame #button {
+  width: 60px;
+  color: #fff;
+  margin-left: 10px;
+  padding: 3px;
+  border: 1px solid #b6b6b6;
+  background-color: #b6b6b6;
+}
+
+div#contentsFooter .help {
+  margin-top: 20px;
+}
+
+div#contentsFooter .help li:first-child {
+  color: #8752a4;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div#contentsFooter .help li {
+  font-size: 12px;
+}
+
+div#contentsFooter p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+/* div#contents */
+
+footer#footer {
+  border-top: 4px solid #000;
+}
+
+footer#footer div {
+  padding-top: 5px;
+  /* border: 1px solid #000; */
+  justify-content: space-around;
+}
+
+div#contact h2 {
+  padding: 20px 0;
+}
+
+div#contact p {
+  font-weight: bold;
+  line-height: 27px;
+}
+
+div#banking p {
+  padding-top: 20px;
+}
+
+div#banking span#nh {
+  color: #0351a3;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+div#banking span {
+  color: #000;
+  font-weight: bold;
+}
+
+div#delivery p {
+  font-weight: bold;
+  line-height: 35px;
+}
+
+div#delivery h2 {
+  padding: 7px 0;
+}
+
+div#delivery span > a {
+  padding-left: 110px;
+}
+
+div#community > ul {
+  margin-top: 20px;
+}
+
+div#community li {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+/* footer#footer */
